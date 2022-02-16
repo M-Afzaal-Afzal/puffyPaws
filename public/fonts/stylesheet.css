@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Cubao Free Narrow';
+    src: url('Cubao_Free_Narrow.eot');
+    src: url('Cubao_Free_Narrow.eot?#iefix') format('embedded-opentype'),
+        url('Cubao_Free_Narrow.woff2') format('woff2'),
+        url('Cubao_Free_Narrow.woff') format('woff'),
+        url('Cubao_Free_Narrow.ttf') format('truetype'),
+        url('Cubao_Free_Narrow.svg#Cubao_Free_Narrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url('PatrickHand-Regular.eot');
+    src: url('PatrickHand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PatrickHand-Regular.woff2') format('woff2'),
+        url('PatrickHand-Regular.woff') format('woff'),
+        url('PatrickHand-Regular.ttf') format('truetype'),
+        url('PatrickHand-Regular.svg#PatrickHand-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cubao Free Wide';
+    src: url('Cubao_Free_Wide.eot');
+    src: url('Cubao_Free_Wide.eot?#iefix') format('embedded-opentype'),
+        url('Cubao_Free_Wide.woff2') format('woff2'),
+        url('Cubao_Free_Wide.woff') format('woff'),
+        url('Cubao_Free_Wide.ttf') format('truetype'),
+        url('Cubao_Free_Wide.svg#Cubao_Free_Wide') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cubao Free';
+    src: url('Cubao_Free_Regular.eot');
+    src: url('Cubao_Free_Regular.eot?#iefix') format('embedded-opentype'),
+        url('Cubao_Free_Regular.woff2') format('woff2'),
+        url('Cubao_Free_Regular.woff') format('woff'),
+        url('Cubao_Free_Regular.ttf') format('truetype'),
+        url('Cubao_Free_Regular.svg#Cubao_Free_Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
