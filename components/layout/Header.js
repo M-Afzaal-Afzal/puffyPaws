@@ -11,8 +11,11 @@ export const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent px-0 py-5 main-navigation">
             <div className="container">
-                <Link passHref className="navbar-brand" href="/">
+                <Link passHref href="/">
+                    <a className={'navbar-brand'}>
+
                     <Image alt={'Logo Image'} src={LogoImage} className="img-fluid"/>
+                    </a>
                 </Link>
 
                 <ul className="navbar-nav ml-auto">
