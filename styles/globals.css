@@ -274,6 +274,7 @@ body {
 
 
 .artist-section::before{
+  pointer-events: none;
   content: '';
   background-image: url(../assets/img/artist-bg.png);
   background-repeat: no-repeat;
@@ -1028,4 +1029,70 @@ body {
     overflow: scroll;
     justify-content: left;
   }
+
+  .roadmap-item.zero-p .roadmap-label-outer {
+    top: 20rem;
+
+  }
+
+  .roadmap-item.zero-p .roadmap-content {
+    right: unset;
+    left: 0;
+  }
+
+  .roadmap-item.twenty-five-p .roadmap-label-outer {
+    top: 35rem;
+    left: 15rem;
+  }
+
+  .roadmap-item.twenty-five-p .roadmap-content {
+    left: 0;
+  }
+
+  .roadmap-item.fifty-p .roadmap-label-outer {
+    top: 51rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .roadmap-item.fifty-p .roadmap-content {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .roadmap-item.seventy-fifty-p .roadmap-label-outer {
+    top: 70rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .roadmap-item.seventy-fifty-p .roadmap-content {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .roadmap-item.hundred-p .roadmap-label-outer {
+    top: 85rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .roadmap-item.hundred-p .roadmap-content {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .roadmap-item.hundred-ten-p .roadmap-label-outer {
+    top: 107rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+
+  .roadmap-item.hundred-ten-p .roadmap-content {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
+
+/* 0% top 20rem*/
