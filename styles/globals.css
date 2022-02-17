@@ -426,6 +426,7 @@ body {
   background-position: center center;
   position: absolute;
   width: 100%;
+  overflow: hidden;
   height: 100%;
 }
 .roadmap-item .roadmap-label-outer{
