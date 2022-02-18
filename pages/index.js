@@ -163,6 +163,24 @@ export default function Home() {
                                     we can achieve the wanted outcome!</p>
                             </div>
                         </div>
+
+                        <div className="roadmap-item eight-p">
+                            <div className="roadmap-label-outer">
+                                <span className="roadmap-percentage">8%</span>
+                                <Image width={108} height={108} alt={'paws gif'} src={PawsImg} className="img-fluid"/>
+                                <div className="roadmap-label">staking</div>
+                            </div>
+
+                            <div className="roadmap-content">
+                                <h4>8% staking!</h4>
+                                <p>After minting we are creating a staking system for our NFT’s our staking starts
+                                    shortly
+                                    after the reveal.
+                                    The value you have gained by staking can be exchanged for merchandise or other
+                                    cryptocurrencies.</p>
+                            </div>
+                        </div>
+
                         <div className="roadmap-item twenty-five-p">
                             <div className="roadmap-label-outer">
                                 <span className="roadmap-percentage">25%</span>

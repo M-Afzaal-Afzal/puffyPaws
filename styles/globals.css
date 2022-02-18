@@ -440,8 +440,8 @@ body {
   flex-wrap: wrap;
 }
 .roadmap-item .roadmap-label-outer img{
-  width: 9rem;
-  height: 9rem;
+  width: 9rem !important;
+  height: 9rem !important;
 }
 .roadmap-item .roadmap-percentage{
   font-size: 3.125rem;
@@ -515,6 +515,23 @@ body {
   left: 10rem;
   width: 46.875rem;
 }
+
+/*eight p - start*/
+.roadmap-item.eight-p .roadmap-label-outer{
+  max-width: 23.75rem;
+  position: absolute;
+  top: 25rem;
+  left: 40%;
+}
+.roadmap-item.eight-p .roadmap-label{
+  top: -2rem;
+}
+.roadmap-item.eight-p .roadmap-content{
+  top: 53rem;
+  left: 10rem;
+  width: 46.875rem;
+}
+/*eight p - end*/
 
 .roadmap-item.fifty-p .roadmap-label-outer{
   max-width: 30rem;
@@ -1031,14 +1048,32 @@ body {
   }
 
   .roadmap-item.zero-p .roadmap-label-outer {
-    top: 20rem;
+    top: 10rem;
 
   }
 
   .roadmap-item.zero-p .roadmap-content {
     right: unset;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 23rem;
   }
+
+  /* 8% start*/
+
+  .roadmap-item.eight-p .roadmap-label-outer {
+    top: 22rem;
+
+  }
+
+  .roadmap-item.eight-p .roadmap-content {
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 34rem;
+  }
+
+  /*8% end*/
 
   .roadmap-item.twenty-five-p .roadmap-label-outer {
     top: 35rem;
@@ -1047,10 +1082,11 @@ body {
 
   .roadmap-item.twenty-five-p .roadmap-content {
     left: 0;
+    top: 48rem;
   }
 
   .roadmap-item.fifty-p .roadmap-label-outer {
-    top: 51rem;
+    top: 48rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1058,10 +1094,11 @@ body {
   .roadmap-item.fifty-p .roadmap-content {
     left: 50%;
     transform: translateX(-50%);
+    top: 60rem;
   }
 
   .roadmap-item.seventy-fifty-p .roadmap-label-outer {
-    top: 70rem;
+    top: 62rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1069,21 +1106,25 @@ body {
   .roadmap-item.seventy-fifty-p .roadmap-content {
     left: 50%;
     transform: translateX(-50%);
+    top: 72rem;
   }
 
   .roadmap-item.hundred-p .roadmap-label-outer {
-    top: 85rem;
+    top: 73rem;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
   }
 
   .roadmap-item.hundred-p .roadmap-content {
     left: 50%;
     transform: translateX(-50%);
+    z-index: 6;
+    top: 91rem;
   }
 
   .roadmap-item.hundred-ten-p .roadmap-label-outer {
-    top: 107rem;
+    top: 92rem;
     left: 50%;
     transform: translateX(-50%);
     z-index: 5;
@@ -1092,7 +1133,14 @@ body {
   .roadmap-item.hundred-ten-p .roadmap-content {
     left: 50%;
     transform: translateX(-50%);
+    top: 104rem;
   }
+
+
+  .roadmap-label-outer img {
+    max-width: 72px;
+  }
+
 }
 
 /* 0% top 20rem*/
