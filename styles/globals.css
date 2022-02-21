@@ -1049,7 +1049,6 @@ body {
 
   .roadmap-item.zero-p .roadmap-label-outer {
     top: 10rem;
-
   }
 
   .roadmap-item.zero-p .roadmap-content {
@@ -1063,7 +1062,6 @@ body {
 
   .roadmap-item.eight-p .roadmap-label-outer {
     top: 22rem;
-
   }
 
   .roadmap-item.eight-p .roadmap-content {
@@ -1144,3 +1142,25 @@ body {
 }
 
 /* 0% top 20rem*/
+
+{/* todo - this is the changing - copy this */}
+
+/*  Arrows css are there Sheraz Bhai */
+
+.arrows {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  /*margin: 0 0 0;*/
+  background: #eeeeee;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.arrow-2 {
+  margin-left: 1rem;
+}
+

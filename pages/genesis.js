@@ -9,10 +9,29 @@ import GenesisMenu from '../assets/img/genesis-menu.png';
 import CloseIcon from '../assets/img/close-icon.png';
 import NavTwitterImg from '../assets/img/twitter.png';
 import NavInstagramImg from '../assets/img/insta.png';
+import {FaArrowLeft,FaArrowRight} from "react-icons/fa";
 
 const Genesis = () => {
 
     const [bidValue, setBidValue] = useState(1);
+
+    const [imgValue,setImgValue] = useState(1);
+
+    const onNextArrowClickHandler = () => {
+        if (imgValue < 9) {
+            setImgValue(imgValue + 1)
+        } else {
+            setImgValue(1);
+        }
+    }
+
+    const onPrevArrowClickHandler = () => {
+        if (imgValue > 1) {
+            setImgValue(imgValue - 1)
+        } else {
+            setImgValue(9)
+        }
+    }
 
     const onBidValueChangeHandler = (e) => {
         setBidValue(+e.target.value);
@@ -95,9 +114,23 @@ const Genesis = () => {
                     <div className="bidding-area">
                         <div className="make-a-bid">
                             <div className="paw-image-outer">
-                                <Image alt={'genesis image'} src={GenesisImg} className="img-fluid paw-image"/>
+                                <Image priority={true} width={316} height={324} alt={'genesis image'} src={`/img/${imgValue}.png`} className="img-fluid paw-image"/>
                             </div>
                             <div className="paw-desc">
+
+                                {/* todo - this is the changing - copy this */}
+                                {/* Genesis Arrows are there sheraz bhai -  */}
+                                <div className={'arrows'}>
+                                    <div onClick={onPrevArrowClickHandler} className={'arrow'}>
+                                        <FaArrowLeft/>
+                                    </div>
+                                    <div onClick={onNextArrowClickHandler} className={'arrow arrow-2'}>
+                                        <FaArrowRight/>
+                                    </div>
+                                </div>
+
+                                {/* End of the arrows */}
+
                                 <div className="paw-name">paw name</div>
                                 <div className="current-bid-and-winner">
                                     <div className="current-bid">
